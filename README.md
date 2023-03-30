@@ -15,8 +15,8 @@
 	int _message_count = 0; - счётчик сообщений, при достижении 5 следующие сообщения перезаписываются начиная с начала
 	
 	private:
-	std::string _my_login; - логин
-	std::string _my_password; - пароль
+	std::string _my_login; - логин,
+	std::string _my_password; - пароль.
 	
 	и функции:
 	*регистрации (sign_up), 
